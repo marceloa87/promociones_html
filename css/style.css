@@ -1,0 +1,180 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+@font-face {
+    font-family: 'DIRECTVCurve';
+    src: url('../varios/directv_curve_medium.woff') format('woff');
+    font-weight: normal;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DIRECTVCurve';
+    src: url('../varios/directv_curve_regular.woff') format('woff');
+    font-weight: normal;
+    font-display: swap;
+    font-style: normal
+}
+
+@import url(https://fonts.googleapis.com/css?family=Palanquin:400,500,700&display=swap);/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent
+}
+
+body {
+    background-color: #051232;
+    font-display: "Palanquin","Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif
+}
+
+h3 {
+    font-family: 'DIRECTVCurve';
+    color: #fff;
+    font-size: 1.3rem;
+}
+
+p {
+    font-size: 1rem;
+    color: antiquewhite;
+    font-weight: 500;
+}
+
+/* ----- LOGO ----- */
+
+.logo {
+    display: flex;
+    width: 100%;
+    height: 130px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.logo img {
+    width: 150px;
+}
+
+/* ----- CONTAINER ----- */
+
+.container {
+    display: flex;
+    margin: auto;
+    width: 75%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* ----- LEFT SIDE ----- */
+
+.left-side{
+    min-width: 350px;
+    flex-grow: 1;
+    flex-basis: 40%;   
+    padding-right: 30px;
+    margin-bottom: 30px;
+}
+
+.item-list{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.image-container {
+    margin-right: 20px;
+}
+
+
+/* ----- RIGHT SIDE ----- */
+
+.right-side{
+    flex-grow: 1;
+    flex-basis: 40%;
+    text-align: center;
+}
+
+.item-container {
+    margin-bottom: 30px;
+}
+
+.pack {
+    display: flex;
+    margin: auto;
+    width: 250px;
+    height: 60px;
+    background-color: #FFC60B;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
+}
+
+.pack h3 {
+    color: #1B2C5D;
+}
+
+.cta {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+    width: 250px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid wheat;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
+    
+}
+
+.cta h3 {
+    color: #1B2C5D;
+}
